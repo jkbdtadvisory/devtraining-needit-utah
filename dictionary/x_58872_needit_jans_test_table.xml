@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c0a5419697b13110ac793931f053afe3" label="Jans Test Table" max_length="40" name="x_58872_needit_jans_test_table" type="collection">
-        <element default="Overwritten value" label="Colliding column" max_length="10" name="colliding_column" type="string"/>
-        <element label="Column to delete" max_length="40" name="column_to_delete" type="string"/>
+        <element default="OVERWRITTEN" label="Colliding column" max_length="10" name="colliding_column" type="string"/>
         <element label="Friends age" max_length="255" name="friends_age" type="integer"/>
         <element label="Friends name" max_length="255" name="friends_name" type="string"/>
         <element choice="1" label="Friends rating" max_length="40" name="friends_rating" type="choice">
